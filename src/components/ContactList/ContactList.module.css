@@ -1,0 +1,18 @@
+.contactList {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 0;
+}
+
+.contactItem {
+  width: calc((100% - 60px) / 4);
+  height: 200px;
+  padding: 10px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: left;
+}
